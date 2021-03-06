@@ -14,6 +14,8 @@ ext {
     slf4jVersion = '1.7.30'
     log4jVersion = '2.14.0'
 
+    projectDescription = 'CHANGE-ME'
+
     scriptsLocation = 'gradle' + File.separator + 'scripts' + File.separator //location of script plugins
 }
 
@@ -55,7 +57,7 @@ dependencies {
 
 group = 'com.github.johanneshiry'
 version = '0.1-SNAPSHOT'
-description = 'mltc_test'
+description = projectDescription
 sourceCompatibility = javaVersion
 targetCompatibility = javaVersion
 

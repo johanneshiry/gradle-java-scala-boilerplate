@@ -3,7 +3,7 @@ plugins {
     id 'java' // java support
     id 'scala' // scala support
     id 'com.diffplug.spotless' version '5.12.4'//code format
-    id "com.github.maiflai.scalatest" version "0.30" // run scalatest without specific spec task
+    id "com.github.maiflai.scalatest" version "0.31" // run scalatest without specific spec task
 }
 
 ext {
@@ -37,7 +37,7 @@ repositories {
 dependencies {
 
     // logging
-    compile 'com.lmax:disruptor:3.4.3' // async logging
+    compile 'com.lmax:disruptor:3.4.4' // async logging
     compile "org.apache.logging.log4j:log4j-api:${log4jVersion}" // log4j
     compile "org.apache.logging.log4j:log4j-core:${log4jVersion}" // log4j
     compile "org.apache.logging.log4j:log4j-slf4j-impl:${log4jVersion}" // log4j -> slf4j
@@ -50,7 +50,7 @@ dependencies {
     compile "org.scala-lang:scala-library:${scalaBinaryVersion}"
 
     // TEST Scala //
-    testCompile "org.scalatest:scalatest_${scalaVersion}:3.2.5"
+    testCompile "org.scalatest:scalatest_${scalaVersion}:3.2.8"
     testRuntime "org.pegdown:pegdown:1.6.0" // HTML report for scalatest
 
 }

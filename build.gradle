@@ -50,7 +50,7 @@ dependencies {
     compile "org.scala-lang:scala-library:${scalaBinaryVersion}"
 
     // TEST Scala //
-    testCompile "org.scalatest:scalatest_${scalaVersion}:3.2.9"
+    testCompile "org.scalatest:scalatest_${scalaVersion}:3.2.10"
     testRuntime "org.pegdown:pegdown:1.6.0" // HTML report for scalatest
 
 }

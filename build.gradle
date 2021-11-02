@@ -10,7 +10,7 @@ ext {
     javaVersion = JavaVersion.VERSION_1_8
 
     scalaVersion = '2.13'
-    scalaBinaryVersion = '2.13.6'
+    scalaBinaryVersion = '2.13.7'
     slf4jVersion = '1.7.32'
     log4jVersion = '2.14.0'
 

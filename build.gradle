@@ -12,7 +12,7 @@ ext {
     scalaVersion = '2.13'
     scalaBinaryVersion = '2.13.6'
     slf4jVersion = '1.7.36'
-    log4jVersion = '2.14.0'
+    log4jVersion = '2.20.0'
 
     projectDescription = 'CHANGE-ME'
 
